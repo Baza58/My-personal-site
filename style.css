@@ -36,6 +36,7 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 .header {
 	margin: 0px 50px;
@@ -93,6 +94,9 @@ h1, h2, h3, h4 {
 	}
 	.content {
 		flex-direction: column-reverse;
+	}
+	.header {
+		align-self: center;
 	}
 	.icons {
 		justify-content: center;
